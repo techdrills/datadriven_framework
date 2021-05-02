@@ -1,0 +1,14 @@
+
+	To achieve data driven framwork
+	
+	1. Create external files - (excel sheets, notepad files, properties files, database, spreadsheets, etc...)
+	2. Connection of the external files with written code like (read the data from files & write the data in files)
+	3. New library for connection with files APACHE POI
+	4. We can read the data, write the data into the files
+	5. Also we can integrate Data driven framework with TestNG
+	
+	Resources-
+	- create external test data files
+	- download apache poi library- https://www.apache.org/dyn/closer.lua/poi/release/bin/poi-bin-5.0.0-20210120.zip
+	- unzip the downloaded folder and then import in the project 
+	
