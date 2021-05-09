@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataProviders.loginTest">
+      <class name="cowin.cowin">
         <methods>
-          <include name="loginTestDataProvider" invocation-numbers="1 2 3 4 5 6 7 8 9 10 11 12 13"/>
-          <include name="close"/>
-          <include name="launch"/>
+          <include name="baseSetup"/>
+          <include name="schedule"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- dataProviders.loginTest -->
+      </class> <!-- cowin.cowin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
